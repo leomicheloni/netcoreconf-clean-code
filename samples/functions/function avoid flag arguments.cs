@@ -1,16 +1,22 @@
 //// Functions, don't use flag arguments
-// Mal
-function createFile(name, temp) {
-    if (temp) {
-      fs.create(`./temp/${name}`);
-    } else {
-      fs.create(name);
+  // Bad
+  void CreateFile(string name, bool temp)
+  {
+    if (temp)
+    {
+      fs.Create($"./temp/{name}");
     }
-}
-// Bien
-function createFile(name) {
-    fs.create(name);
+    else
+    {
+      fs.Create(name);
+    }
   }
-function createTempFile(name) {
-    createFile(`./temp/${name}`);
+  // Good
+  void CreateFile(string name)
+  {
+    fs.Create(name);
+  }
+  void CreateTempFile(string name)
+  {
+    CreateFile($"./temp/{name}");
   }

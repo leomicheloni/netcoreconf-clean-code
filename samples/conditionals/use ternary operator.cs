@@ -7,7 +7,7 @@ if (IsValid())
 }
 else
 {
-    string validationOk = "Go Away";
+    validationOk = "Go Away";
 }
 
 // Bien

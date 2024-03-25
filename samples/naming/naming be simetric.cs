@@ -1,4 +1,4 @@
-//// Naming, be simetric
+//// Naming, be symmetric
 // Mal
 public void Start()
 {
@@ -8,6 +8,7 @@ public void Finish()
 {
     // ...
 }
+
 // Bien
 public void Start()
 {
@@ -25,3 +26,5 @@ bool down = false;
 // Bien
 bool on = true;
 bool off = false;
+
+

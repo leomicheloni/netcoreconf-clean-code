@@ -27,3 +27,5 @@ public class UserRegistrationResult
     public int UserId { get; set; }
     public int WelcomeDiscount { get; set; }
 }
+
+

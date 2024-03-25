@@ -12,3 +12,4 @@ else
 
 // Bien
 string validationOk = IsValid() ? "Welcome!" : "Go Away";
+

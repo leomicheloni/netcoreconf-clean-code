@@ -1,4 +1,4 @@
-//// Clases, don't be redundant
+//// Redundant naming
 // Mal
 public class Car
 {
@@ -14,3 +14,4 @@ public class Car
     public string model = "Accord";
     public string color = "Blue";
 }
+

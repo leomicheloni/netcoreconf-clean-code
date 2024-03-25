@@ -24,3 +24,19 @@ bool isRegistered = false;
 bool notValid = false;
 // Bien
 bool isValid = true;
+
+
+
+// don't double negate
+// Mal
+if (!notValid)
+{
+    // ...
+}
+
+// Bien
+if (isValid)
+{
+    // ...
+}
+```

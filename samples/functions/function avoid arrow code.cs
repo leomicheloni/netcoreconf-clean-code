@@ -55,7 +55,7 @@ else
 
 return result;
 
-// Bien
+// Bien - guard clauses
 if (user.IsRegistered())
     return "This user is already registered";
 
